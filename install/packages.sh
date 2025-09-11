@@ -1,7 +1,12 @@
 #!/bin/bash
 
+# Remove the default kernel to ensure CachyOS kernel is used
+sudo pacman -Rns --noconfirm linux
+
 sudo pacman -S --noconfirm --needed \
+  linux-cachyos \
   1password-beta \
+
   1password-cli \
   asdcontrol-git \
   alacritty \

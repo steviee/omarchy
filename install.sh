@@ -13,6 +13,7 @@ source $OMARCHY_INSTALL/preflight/trap-errors.sh
 source $OMARCHY_INSTALL/preflight/guard.sh
 source $OMARCHY_INSTALL/preflight/chroot.sh
 source $OMARCHY_INSTALL/preflight/pacman.sh
+source $OMARCHY_INSTALL/preflight/cachyos.sh
 source $OMARCHY_INSTALL/preflight/migrations.sh
 source $OMARCHY_INSTALL/preflight/first-run-mode.sh
 
